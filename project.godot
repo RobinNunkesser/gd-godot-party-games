@@ -1,0 +1,23 @@
+; Engine configuration file.
+; Party Games 3D (Godot 4)
+; Modular Party Minigame Suite
+
+config_version=5
+
+[application]
+
+config/name="Party Games"
+config/description="Modular 3D Party Minigame Suite in Godot 4"
+run/main_scene="res://presentation/main.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gdUnit4/plugin.cfg")
